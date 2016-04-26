@@ -2,5 +2,53 @@ img{
 	max-width: 100%;
 }
 body{
-	margin: 0 auto;
+	margin: 0;
+}
+*{
+	font-family: "Open Sans";
+}
+/*estilos de article*/
+.pregunta{
+	color: #31B0D5;
+	font-weight: 300;
+	text-align: center;
+}
+.logo-user{
+	height: 50px;
+	width: 290px;
+}
+.testing{
+	color: #31B0D5;
+	font-weight: 300;
+}
+p{
+	font-weight: 600;
+}
+ul{
+	margin: 4%;
+}
+.user{
+	margin: 3%;
+}
+.preguntas{
+	margin: 3%;
+	font-weight: 600;
+}
+.user-banner{
+	margin-top: 3%;
+}
+/*estilos de prueba gratuita*/
+.prueba-gratuita{
+	background-color: #74A3DB;
+	padding: 3%;
+	color: #FFFFFF;
+	text-align: center;
+}
+.boton{
+	border: solid 2px #ffffff;
+	background-color: #74A3DB;
+	padding: 2%;
+	color: #FFFFFF;
+	font-size: 1.6em;
+	margin-top: 5%;
 }
