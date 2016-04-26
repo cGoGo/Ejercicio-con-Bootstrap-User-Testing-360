@@ -1,0 +1,34 @@
+*{
+	font-family: "Open Sans";
+}
+.ejemplo img {
+	width: 50%;
+	height: 20%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.celeste {
+	color: #68ADFF;
+}
+
+.ejemplo .flecha {
+	width: 10%;
+	height: 5%;
+	margin-left: 35%;
+}
+
+p {
+	font-size: 11px;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
