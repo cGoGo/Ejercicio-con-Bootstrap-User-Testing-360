@@ -1,7 +1,55 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
 header {
-	background-image: url(../image/banner.jpg);
+	background-image: url(../image/large.jpg);
 	background-size: 100%;
 }
 img {
 	width: 100%;
+}
+.text-white {
+	color: white;
+}
+.opacity {
+	background: rgba(59, 61, 91, 0.6);
+}
+.font-md { /*para el nav y texto bajo "Pueba Gratuita"*/
+	font-size: 1.2em;
+}
+.pd-4 {
+	padding: 0 4%;
+}
+.nav li {
+	display: inline-block;
+}
+.title {
+	font-size: 3.5em;
+	margin: 20% 0 15% 0;
+}
+.font-light {
+	font-weight: lighter;
+}
+.bg-blue {
+	background: rgba(82, 141, 211, 0.9);
+}
+.pd-1 {
+	padding: 1% 0;
+}
+.pd-3 {
+	padding: 3% 0;
+}
+.pd-5 {
+	padding: 5% 0;
+}
+.boton a {
+	padding: 3% 4%;
+	border: 2px solid white;
+	border-radius: 4px;
+	font-size: 2em;
+}
+.boton a:hover {
+	background: white;
+	text-decoration: none;
+	color: rgba(82, 141, 211, 0.9);
 }
