@@ -1,13 +1,6 @@
 * {
 	font-family: 'Open Sans', sans-serif;
 }
-header {
-	background-image: url(../image/large.jpg);
-	background-size: 100%;
-}
-img {
-	width: 100%;
-}
 .text-white {
 	color: white;
 }
@@ -18,17 +11,7 @@ img {
 	background: rgba(59, 61, 91, 0.6);
 }
 .font-md { /*para el nav y texto bajo "Pueba Gratuita"*/
-	font-size: 1.2em;
-}
-.pd-4 {
-	padding: 0 4%;
-}
-.nav li {
-	display: inline-block;
-}
-.title {
-	font-size: 3.5em;
-	margin: 20% 0 15% 0;
+	font-size: 1.3em;
 }
 .font-light {
 	font-weight: 100;
@@ -42,12 +25,30 @@ img {
 .pd-3 {
 	padding: 3% 0;
 }
+.pd-4 {
+	padding: 0 4%;
+}
 .pd-5 {
 	padding: 5% 0;
 }
 .mg-8 {
 	margin: 8%;
 }
+
+/* HEADER */
+header {
+	background-image: url(../image/large.jpg);
+	background-size: 100%;
+}
+.nav li {
+	display: inline-block;
+}
+.title { /* Titulo */
+	font-size: 3.2em;
+	margin: 15% 0 15% 0;
+	line-height: 1.2;
+}
+
 .boton a {
 	padding: 3% 4%;
 	border: 2px solid white;
@@ -59,16 +60,19 @@ img {
 	text-decoration: none;
 	color: rgba(82, 141, 211, 0.9);
 }
-.ico {
+.ico { /* Iconos */
 	font-size: 3em;
 	padding: 15%;
 	margin: 2%;
 	border-radius: 50%;
 	box-shadow: -2px 2px 2px #E6E6E6;
 }
-.description {
+.description { /* Descripcion de los sevicios */
 	margin-top: 20%;
 	margin-bottom: 5%;
 	color: rgb(105, 135, 164);
 	font-weight: 100;
+}
+.separador {
+	width: 8%;
 }
