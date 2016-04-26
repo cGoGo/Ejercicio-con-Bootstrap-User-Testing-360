@@ -23,7 +23,7 @@
 	padding: 3% 0;
 }
 .pd-4 {
-	padding: 0 4%;
+	padding: 0 2%;
 }
 .pd-5 {
 	padding: 5% 0;
@@ -61,12 +61,6 @@ header {
 .separador {
 	width: 8%;
 }
-img {
-	max-width: 100%;
-}
-body{
-	margin: 0;
-}
 
 /*estilos de article*/
 .pregunta{
@@ -85,7 +79,7 @@ body{
 p{
 	font-weight: 600;
 }
-ul{
+.ul{
 	margin: 4%;
 }
 .user{
@@ -97,6 +91,7 @@ ul{
 }
 .user-banner{
 	margin-top: 3%;
+	max-width: 100%;
 }
 /*estilos de prueba gratuita*/
 .prueba-gratuita{
