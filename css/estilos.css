@@ -7,3 +7,34 @@ body{
 img{
 	max-width: 100%;
 }
+.contacto{
+	background-image: url(../image/large.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 15%;
+	box-sizing: content-box;
+}
+.container{
+	background: rgba(0, 0, 0, 0.7);
+}
+.formulario{
+	color: #FFFFFF;
+	margin: 3%;
+}
+.formulario h2{
+	font-weight: bold;
+}
+form{
+	width: 50%;
+	display: inline-block;
+	padding: 5%;
+}
+.right{
+	text-align: right;
+}
+.nombre, .email, .url{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 1%;
+	color: #686868;
+}

@@ -14,20 +14,26 @@
 </head>
 <body>
 	<section class="contacto">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="formulario">
 						<h2>Formulario <img src="image/user-r.png" alt=""></h2>
-						<br width="70%">
-							<form action="datos.php" method="get" class="form-inline">
-								<span class="rojo">* </span><input type="text" name="nombre" placeholder="Nombre">
-								<span class="rojo">* </span><input type="text" name="nombre" placeholder="Email">
-								<span class="rojo">* </span><textarea name="nombre" rows="5" cols="30">Dejame tu URL</textarea>
-								<input type="submit" value="enviar">
+						<hr width="100%">
+							<form action="datos.php" method="get">
+								<input type="text" name="nombre" placeholder="Nombre" class="nombre">
+								<input type="text" name="nombre" placeholder="Email" class="email">
+								<textarea name="nombre" rows="5" cols="30" class="url">Dejame tu URL</textarea>
+								<input type="submit" value="Enviar Email" class="btn btn-info">
 							</form>
+				<div class="row">
+					<div class="col-md-6">
 						<h5>Powered by <a href="#">Equipo Laboratoria</a></h5>
+					</div>
+					<div class="col-md-6 right">
 						<a href="#">Report Abuse</a>
+					</div>
+				</div>
 					</div>
 				</div>
 			</div>
